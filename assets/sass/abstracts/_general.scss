@@ -1,0 +1,119 @@
+.logo__cafeAgere{
+  width: 30px;
+  margin: 10px 0 0 20px;
+  img{
+    margin-left: 200px;
+  }
+
+  }
+  .icono__flecha--derecha{
+    text-decoration-color: white;
+    background-color: #E4572E;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    
+    
+  
+  }
+
+  .ico_arrow{
+    position: absolute;
+    right: 15px;
+    top:-10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; 
+    height: 100px;
+    text-align:center; 
+    background-color:#E4572E;
+  }
+  
+  .titulo__Cafe{
+    font-size: large;
+    position: absolute;
+    top: 4em;
+    right: 9em;
+    clear: left;
+  }
+  
+  .conocenos {
+    
+    display: flex;
+    width: 100%;
+
+    h2{
+     display: block;
+    }
+    p{
+      
+      text-align: left; 
+      width: 250px;
+    }
+    .img{
+      position: relative;
+     
+    }
+    .map__conocenos{
+      
+      width: 280px;
+      }
+      
+  }
+  .maq__conocenos{
+    width: 350px;
+  
+   }
+
+   //conocenos
+
+   .row__conocenos{
+    position: relative;
+    margin-top: 1px;
+    margin-left: 50px;
+    clear: both;
+   }
+
+   .col__texto1{
+    position: absolute; 
+    left: 20px; 
+    width: 13em; 
+   }
+   .col__mapa{
+    position:absolute; 
+     background-color: #3c91e6;
+     left: 300px; 
+     
+    padding-right: 80px; 
+    padding-top: 40px; 
+    width: 400px; 
+    height: 170px;
+   }
+   .col__mapa--imagen{
+
+    position: absolute; 
+    left: 280px;
+     top: 5px;
+     padding-right: 80px; 
+     padding-top: 20px;
+   }
+
+   .col--cafe{
+    background-image: url(/assets/img/img-3.png) ;
+    background-size: cover;
+    position: absolute; 
+    left: 630px; 
+   
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+
+   }
+   .col--cafetera{
+    position: absolute; 
+    left: 690px; 
+    
+    z-index: 1;
+
+   }

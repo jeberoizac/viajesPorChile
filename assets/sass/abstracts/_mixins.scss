@@ -1,0 +1,11 @@
+@mixin fondo_personalizado($fondo: #E93E30){
+  background-color: $fondo;
+}
+
+// @mixin imagen__personalizada--categoria($imagen: ){
+
+// }
+//para modificar el fondo de las categorias
+.row__catergorias{
+  @include fondo_personalizado()
+}
