@@ -22,7 +22,19 @@ const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
   }
   // js-docs-end live-alert
   
-
+//scrollMove
+$(document).ready(function(){
+  $("a").click(function() {
+    var li = this.hash
+    alert(li)
+    $("html, body").animate(
+      {
+        scrollTo:$(li).offset().top -70
+      },
+      4000
+    )
+  })
+ })
 //contaste de tooltips
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
