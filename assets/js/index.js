@@ -36,15 +36,15 @@ myModal.addEventListener('shown.bs.modal', () => {
 })
 
 //scrollMove
-$(document).ready(function(){
-  $("a").click(function() {
-    var li = this.hash
-    alert(li)
-    $("html, body").animate(
-      {
-        scrollTo:$(li).offset().top -70
-      },
-      4000
-    )
-  })
- })
+// $(document).ready(function(){
+//   $("a").click(function() {
+//     var li = this.hash
+//     alert(li)
+//     $("html, body").animate(
+//       {
+//         scrollTo:$(li).offset().top -70
+//       },
+//       4000
+//     )
+//   })
+//  })
