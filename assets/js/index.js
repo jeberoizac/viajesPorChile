@@ -1,13 +1,10 @@
 import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
-
 //contaste de tooltips
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-
 //constantes de Modal
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
-
 //alert
 // js-docs-start live-alert
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
