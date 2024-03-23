@@ -7,6 +7,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 //constantes de Modal
 const myModal = document.getElementById('myModal')
 const myInput = document.getElementById('myInput')
+
 //alert
 // js-docs-start live-alert
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
@@ -29,10 +30,7 @@ const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     })
   }
   // js-docs-end live-alert
-  
-
-
-
+ 
 myModal.addEventListener('shown.bs.modal', () => {
   myInput.focus()
 })
